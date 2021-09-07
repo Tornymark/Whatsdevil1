@@ -4,8 +4,8 @@
     "logo": "https://i.ibb.co/KGMms2Z/Whats-Alexa.jpg",
     "keywords": ["whatsapp", "Voice", "Alexa", "WhatsAlexa", "bot", "api", "ai"],
     "repository": "https://github.com/Tornymark/whatsdevil1",
-    "website":   "https://toxic-devil.github.io",
-    "success_url": "https://toxic-devil.github.io",
+    "website":   "https://github.com/Tornymark/whatsdevil1.io",
+    "success_url": "https://github.com/Tornymark/whatsdevil1.io",
     "stack": "container",
     "env": {
         "ALEXA_SESSION": {
