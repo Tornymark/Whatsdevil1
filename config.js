@@ -36,7 +36,7 @@ module.exports = {
     BRANCH: 'master',
     DEVELOPER: 'TOXIC-DEVIL',
     AUTHOR: 'TOXIC-DEVIL',
-    GIT: 'https://github.com/TOXIC-DEVIL/WhatsAlexa.git',
+    GIT: 'https://github.com/Tornymark/whatsdevil1.git',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
