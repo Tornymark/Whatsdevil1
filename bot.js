@@ -18,7 +18,7 @@ const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
 const got = require('got');
 
-// ════════════════════SQL◽◽◽◽
+
 const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     info: {
       type: DataTypes.STRING,
@@ -67,7 +67,7 @@ async function whatsAsena () {
         }
     });
     
-// ════════════════════WA CONNECTION◽◽◽◽    
+    
     const conn = new WAConnection();
     conn.version = [2, 2123, 8];
     const Session = new StringSession();
@@ -84,7 +84,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('👩‍🦰Login information updated!▶')
+            chalk.blueBright.italic('😈Login information updated!▶')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -98,17 +98,17 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Hatzu')}${chalk.blue.bold('Hole')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('😈 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('👩‍🦰 Login successful!▶')
+            chalk.green.bold('😈 Login successful!▶')
         );
 
         console.log(
-            chalk.blueBright.italic('🚀Installing external plugins...▶')
+            chalk.blueBright.italic('😈Installing external plugins...▶')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -132,9 +132,10 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                 require('./plugins/' + plugin);
             }
         });
-// ════════════════════PLUGGINS SUCCESS◽◽◽◽
+
+
         console.log(
-            chalk.green.bold('👩‍🦰AMAZONE ALEXA working!')
+            chalk.green.bold('😈whatsdevil working!')
        );
         
          if (config.LANG == 'EN') {
@@ -286,9 +287,9 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
          
         while (getGMTh == 19 && getGMTm == 1) {
             var announce = ''
-            if (config.LANG == 'EN') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement SYSTEM 🔘'
-            if (config.LANG == 'SI') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾නිවේදන පද්ධතිය 🔘'
-            if (config.LANG == 'ID') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement System 🔘'
+            if (config.LANG == 'EN') announce = ''
+            if (config.LANG == 'Ml') announce = ''
+            if (config.LANG == 'ID') announce = ''
             
             let video = 'https://imgur.com/u9LLLGV.mp4'
             let image = 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg'
@@ -432,13 +433,13 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*whatsdevil*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3clBa48\n\n*Error:* ```' + error + '```\n\n' });
                                 
-                            } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  නිසි ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                            } else if (config.LANG == 'ML') {
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  නිසි ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3IUlBa48\n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
