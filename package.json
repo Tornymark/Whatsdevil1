@@ -2,7 +2,7 @@
   "name": "Whatsdevil1",
   "version": "1.1.1",
   "description": "WhatsApp Bot.",
-  "main": "./WhWhatsdevil/bot.js",
+  "main": "./Whatsdevil/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
