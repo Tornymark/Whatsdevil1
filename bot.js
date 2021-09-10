@@ -433,13 +433,13 @@ ${chalk.blue.italic('😈 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*whatsdevil*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3clBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/WhatsAlexa.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*WhatsAlexa an error has occurred!*\n_Report this error to the developer! [ TOXIC-DEVIL ]._\n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'ML') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  නිසි ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3IUlBa48\n\n*දෝෂය:* ```' + error + '```\n\n' });
-                                
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/WhatsAlexa.png"), MessageType.image, { caption: '*『 പിശക് 』*\n\n*WhatsAlexa പിശക് സംഭവിച്ചു!*\n_ഈ പിശക് ഡെവലപ്പറെ അറിയിക്കുക! [ TOXIC-DEVIL ]._\n\n*പിശക്:* ```' + error + '```\n\n' });
+           
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Alexa.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/WhatsAlexa.png"), MessageType.image, { caption: '*『 KESALAHAN 』*\n\n*WhatsAlexa telah terjadi kesalahan!*\n_Laporkan kesalahan ini ke pengembang [ TOXIC-DEVIL ]._\n\n*Kesalahan:* ```' + error + '```\n\n' });
                             }
                         }
                     }
