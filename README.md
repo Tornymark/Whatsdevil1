@@ -13,11 +13,11 @@ https://simpleicons.org/
 [![Linkedin](https://img.shields.io/badge/LinkedIn-TONYMARK-blue)](https://www.linkedin.com/in/TONY-MARK-954a741b8/)
 [![Mail](https://img.shields.io/badge/Hotmail-nilipulthimira.com-blue?logo=Gmail&logoColor=blue&labelColor=black)](#)
 <br>
-[![Hackthebox](https://img.shields.io/badge/Hack%20the%20box-cham2003-green)](https://app.hackthebox.eu/profile/overview)
-[![HackerRank](https://img.shields.io/badge/Hacker%20rank-cham2003-green)](https://www.hackerrank.com/sasipclass)
+[![Hackthebox](https://img.shields.io/badge/Hack%20the%20box-TONYMARK-green)](https://app.hackthebox.eu/profile/overview)
+[![HackerRank](https://img.shields.io/badge/Hacker%20rank-TONYMARK-green)](https://www.hackerrank.com/sasipclass)
 <!-- [![HitCount](http://hits.dwyl.com/Ahmad-Sawalqeh/Ahmad-Sawalqeh.svg)](http://hits.dwyl.com/Ahmad-Sawalqeh/Ahmad-Sawalqeh) -->
 
-<h2 align='center'><samp><strong>Hi there 👋, I am Chamindu pushpika</strong></samp></h2>
+<h2 align='center'><samp><strong>Hi there 👋, I am TONYMARK</strong></samp></h2>
 <h3 align='center'><strong><a href="#" target="_blank">Portfolio🌐</a></strong></h3>
 <p align='center'>Software developer | Full-stack JavaScript | Node/React developer | Web developer</p>
 
@@ -51,10 +51,6 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 ![ESlint](https://img.shields.io/badge/-ESlint-000000?style=flat&logo=ESlint&labelColor=4B32C3)
 ![Windows](https://img.shields.io/badge/-Windows-000000?style=flat&logo=windows&logoColor=ffffff&labelColor=0078D6)
 
-
-🧐 **Knowledge of:**<br>
-
-`Responsive web design`, `DOM`, `Styled Components`, `React Router`, `Enzyme`, `AXIOS`, `3rd Party API`, `Object-Oriented Programming`, `data structures and algorithms`.
 
 
 🌍 **Deployment platforms:**<br>
